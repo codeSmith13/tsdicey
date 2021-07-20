@@ -1,0 +1,232 @@
+
+
+
+button {
+  
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: Helvetica;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to top,
+    rgb(49, 2, 255) 20%,
+    rgb(241, 4, 4) 90%,
+    rgb(255, 104, 34) 10%
+    
+  );
+  
+  border: 2px solid rgb(19, 248, 30);
+ 
+ 
+  } 
+  
+
+button:hover {
+  background:  rgb(49, 2, 255);
+  color: black;
+  text-transform: uppercase;
+  box-shadow: rgb(255, 255, 255) 1px 1px 5px 1px;
+}
+button:active {
+  background: rgb(255, 104, 34);
+} 
+
+/* #gg-dice-1 {
+    display: block;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    box-sizing: border-box;
+    width: 5em;
+    height: 5em;
+    border: .3em solid;
+    border-radius: 1rem;
+    background-color: white;
+}
+#gg-dice-1::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    background: black;
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border-radius: 4px;
+    left: 1.8em;
+    top: 1.8em;
+}
+
+ #gg-dice-2 {
+ display: block;
+ transform: scale(var(--ggs,1));
+ position: relative;
+ box-sizing: border-box;
+ width: 5em;
+ height: 5em;
+ border: .3em solid;
+ border-radius: 1rem;
+ background-color: white;
+}
+
+#gg-dice-2::before {
+ content: "";
+    display: block;
+    box-sizing: border-box;
+    background: black;
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border-radius: 4px;
+ left:2.5em ;
+ top:1.2em;
+ box-shadow: -1.5em 1.5em 0;
+} 
+
+ #gg-dice-3 {
+ display: block;
+ transform: scale(var(--ggs,1));
+ position: relative;
+ box-sizing: border-box;
+ width: 5em;
+ height: 5em;
+ border: .3em solid;
+ border-radius: 1rem;
+ background-color: white;
+}
+
+#gg-dice-3::before {
+ content: "";
+    display: block;
+    box-sizing: border-box;
+    background: black;
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border-radius: 4px;
+ left:2px;
+ top:2px;
+ box-shadow:
+ 3em 3em 0,
+ 1.5em 1.5em 0
+ 
+} 
+
+ #gg-dice-4 {
+ display: block;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    box-sizing: border-box;
+    width: 5em;
+    height: 5em;
+    border: .3em solid;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+#gg-dice-4::before {
+ content: "";
+ display: block;
+ box-sizing: border-box;
+ background: currentColor;
+ position: absolute;
+ width: 1em;
+ height: 1em;
+ border-radius: 4px;
+ left:13px;
+ top:14px;
+ box-shadow:
+ 0 30px 0,
+ 30px 0 0,
+ 30px 30px 0
+} 
+
+
+#gg-dice-5 {
+     display: block;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    box-sizing: border-box;
+    width: 5em;
+    height: 5em;
+    border: .3em solid;
+    border-radius: 1rem;
+    background-color: white;
+}
+#gg-dice-5::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    background: currentColor;
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border-radius: 4px;
+    left:13px;
+    top:14px;
+    box-shadow:
+        0 30px 0,
+        30px 0 0,
+        30px 30px 0,
+        15px 15px 0;
+}
+
+ #gg-dice-6 {
+  display: block;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    box-sizing: border-box;
+    width: 5em;
+    height: 5em;
+    border: .3em solid;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+#gg-dice-6::before {
+ content: "";
+ display: block;
+ box-sizing: border-box;
+ background: currentColor;
+ position: absolute;
+ width: 1em;
+ height: 1em;
+ border-radius: 4px;
+ left:2px;
+ top:2px;
+ box-shadow:
+ 0 15px 0, 0 30px 0,
+ 30px 0 0, 30px 15px 0,
+ 30px 30px 0;
+}  */
+
+.dice {
+    
+    display: inline-flex;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    box-sizing: border-box;
+    width: 5em;
+    height: 5em;
+    border: .3em solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    margin: .5em;
+    color:white;
+   justify-content: center;
+   align-items: center;
+}
+
+.dice:hover{
+  background-color: white;
+  color: black;
+  border: solid 6px black;
+ 
+}
+
+#sumArea {
+  color:white;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: Helvetica ;
+  font-size: 27px;
+}
+
